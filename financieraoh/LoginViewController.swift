@@ -25,8 +25,9 @@ class LoginViewController : UIViewController  {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        view.addSubview(loginButton)
-        loginButton.center = view.center
+        //view.addSubview(loginButton)
+        //loginButton.center = view.center
+        //loginButton.contentVerticalAlignment = view. //UIControlContentVerticalAlignment.bottom
         
         setupSubViews()
     }

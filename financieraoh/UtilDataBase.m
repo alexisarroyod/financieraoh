@@ -9,7 +9,7 @@
 
 #import "UtilDataBase.h"
 #import <sqlite3.h>
-#define DATABASE_NAME @"bdFinancieraOH.sqlite"
+#define DATABASE_NAME @"bdFinancieraOH_v2.sqlite"
 
 @interface UtilDataBase()
 

@@ -12,9 +12,13 @@ import Foundation
 class FormViewController : UIViewController  {
 
 
-    @IBAction func doneButton(_ sender: Any) {
-        
+   
+    @IBAction func btnDone(_ sender: Any) {
         //let feedbackAlert = UIAlertController(title: "Form", "Usuario registrado", preferredStyle: .alert)
+        
+        //self.navigationController?.dismiss(animated: true, completion: nil)
+        
+        print("click en boton ")
     }
     
     
